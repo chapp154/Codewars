@@ -1,4 +1,4 @@
-export function fortune(f0, p, c0, n, i, yearsCounter = 0) {
+export function fortune(f0, p, c0, n, i, yearsCounter = 1) {
 
 	const budget = Math.floor(parseFloat(f0 + (p / 100) * f0 - c0)) ;
 	const toTake = Math.floor(parseFloat(c0 + (i / 100) * c0)) ;
