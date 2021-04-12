@@ -13,4 +13,4 @@ import {beggars} from "./Katas/englishBeggars";
 //console.log(fortune(100000, 1, 2000, 15, 1));
 
 // Beggars
-console.log(beggars([1,2,3,4,5, 4, 6, 8, 1, 6],3));
+console.log(beggars([1,2,3,4,5, 4, 6, 8, 1, 6],3)); 
