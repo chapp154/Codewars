@@ -2,6 +2,7 @@ import {amaroPlan} from "./Katas/pirateGold";
 import {whoTookTheCarKey} from "./Katas/lostKeys";
 import { fortune } from "./Katas/BankersPlan";
 import {beggars} from "./Katas/englishBeggars";
+import {reverseOrRotate} from "./Katas/reverseOrRotate";
 
 // Pirates coin share https://www.codewars.com/kata/59e77930233243a7b7000026/train/javascript
 //console.log(amaroPlan(57), "kejk");
@@ -13,4 +14,7 @@ import {beggars} from "./Katas/englishBeggars";
 //console.log(fortune(100000, 1, 2000, 15, 1));
 
 // Beggars
-console.log(beggars([1,2,3,4,5, 4, 6, 8, 1, 6],3)); 
+//console.log(beggars([1,2,3,4,5, 4, 6, 8, 1, 6],3)); 
+
+
+reverseOrRotate("123456987654", 6);

@@ -50,13 +50,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/Katas/reverseOrRotate.js":
+/*!**************************************!*\
+  !*** ./src/Katas/reverseOrRotate.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"reverseOrRotate\": () => (/* binding */ reverseOrRotate)\n/* harmony export */ });\nfunction reverseOrRotate(str, sz) {\n\n\t// const splitArr = str.split(\"\");\n\t// let chunks = [];\n\t// splitArr.forEach((chunk, index, arr) => {\n\t// \tif((index + 1) % sz === 0) {\n\t// \t\tsplitArr.splice((index + 1), 0, \"-\");\n\t// \t}\n\t// })\n\n\tfor (let i = 0; i < str.length; i++) {\n\n\t\tif(i % sz === 0) {\n\t\t\tstr.i = \",\";\n\t\t}\n\t}\n\n\n\n\tconsole.log(str);\n\n\t\n}\n\n\n//\"123456 987654\", 6\n\n//# sourceURL=webpack://codewars/./src/Katas/reverseOrRotate.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Katas_pirateGold__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Katas/pirateGold */ \"./src/Katas/pirateGold.js\");\n/* harmony import */ var _Katas_lostKeys__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Katas/lostKeys */ \"./src/Katas/lostKeys.js\");\n/* harmony import */ var _Katas_BankersPlan__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Katas/BankersPlan */ \"./src/Katas/BankersPlan.js\");\n/* harmony import */ var _Katas_englishBeggars__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Katas/englishBeggars */ \"./src/Katas/englishBeggars.js\");\n\n\n\n\n\n// Pirates coin share https://www.codewars.com/kata/59e77930233243a7b7000026/train/javascript\n//console.log(amaroPlan(57), \"kejk\");\n\n// Lost car keys https://www.codewars.com/kata/57a23c2acf1fa514d0001034/train/javascript\n//console.log(whoTookTheCarKey(['01000001', '01101100', '01100101', '01111000', '01100001', '01101110', '01100100', '01100101', '01110010']));\n\n// Bankers plan\n//console.log(fortune(100000, 1, 2000, 15, 1));\n\n// Beggars\nconsole.log((0,_Katas_englishBeggars__WEBPACK_IMPORTED_MODULE_3__.beggars)([1,2,3,4,5, 4, 6, 8, 1, 6],3)); \n\n\n//# sourceURL=webpack://codewars/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Katas_pirateGold__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Katas/pirateGold */ \"./src/Katas/pirateGold.js\");\n/* harmony import */ var _Katas_lostKeys__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Katas/lostKeys */ \"./src/Katas/lostKeys.js\");\n/* harmony import */ var _Katas_BankersPlan__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Katas/BankersPlan */ \"./src/Katas/BankersPlan.js\");\n/* harmony import */ var _Katas_englishBeggars__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Katas/englishBeggars */ \"./src/Katas/englishBeggars.js\");\n/* harmony import */ var _Katas_reverseOrRotate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Katas/reverseOrRotate */ \"./src/Katas/reverseOrRotate.js\");\n\n\n\n\n\n\n// Pirates coin share https://www.codewars.com/kata/59e77930233243a7b7000026/train/javascript\n//console.log(amaroPlan(57), \"kejk\");\n\n// Lost car keys https://www.codewars.com/kata/57a23c2acf1fa514d0001034/train/javascript\n//console.log(whoTookTheCarKey(['01000001', '01101100', '01100101', '01111000', '01100001', '01101110', '01100100', '01100101', '01110010']));\n\n// Bankers plan\n//console.log(fortune(100000, 1, 2000, 15, 1));\n\n// Beggars\n//console.log(beggars([1,2,3,4,5, 4, 6, 8, 1, 6],3)); \n\n\n(0,_Katas_reverseOrRotate__WEBPACK_IMPORTED_MODULE_4__.reverseOrRotate)(\"123456987654\", 6);\n\n//# sourceURL=webpack://codewars/./src/index.js?");
 
 /***/ })
 
