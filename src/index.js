@@ -17,4 +17,4 @@ import {reverseOrRotate} from "./Katas/reverseOrRotate";
 //console.log(beggars([1,2,3,4,5, 4, 6, 8, 1, 6],3)); 
 
 
-reverseOrRotate("123456987654", 6);
+reverseOrRotate("563000655734469485", 4);
